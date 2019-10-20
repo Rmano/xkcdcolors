@@ -367,7 +367,7 @@ dark plum	#3f012c
 pear	#cbf85f	
 pinkish orange	#ff724c	
 midnight purple	#280137	
-light urple	#b36ff6	
+light purple	#b36ff6	
 dark mint	#48c072	
 greenish tan	#bccb7a	
 light burgundy	#a8415b	
