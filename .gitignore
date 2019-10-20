@@ -1,5 +1,9 @@
 #
 xkcdcolors-manual.pdf
+xkcdcolors.dtx
+xkcdcolors.ins
+xkcdcolors.zip
+xkcdcolors/*
 
 # gitignore para los archivos latex
 *.aux

@@ -8,3 +8,16 @@ for the manual. Call them like
 
 and capture the output into the relevant file. 
 
+To create the .dtx and .ins file:
+
+    makedtx -author "Romano Giannetti <romano.giannetti@gmail.com>"\
+        -src "xkcdcolors\.sty=>xkcdcolors.sty"\
+        -doc xkcdcolors-manual.tex xkcdcolors
+
+## CTAN package
+
+You can simply use 
+
+    make ctan
+
+
