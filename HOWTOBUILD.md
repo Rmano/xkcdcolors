@@ -9,6 +9,7 @@ for the manual. Call them like
 and capture the output into the relevant file. 
 
 To create the .dtx and .ins file:
+(Not working yet)
 
     makedtx -author "Romano Giannetti <romano.giannetti@gmail.com>"\
         -src "xkcdcolors\.sty=>xkcdcolors.sty"\
@@ -18,6 +19,9 @@ To create the .dtx and .ins file:
 
 You can simply use 
 
-    make ctan
+    make ctan-plain
+
+and you have the .zip file to upload. 
+
 
 
