@@ -1,4 +1,14 @@
 \documentclass[12pt]{article}
+%
+% Manual for the package `xkcdcolors`
+% Copyright (c) Romano Giannetti 2019
+% License: LPPL 1.3c (https://ctan.org/license/lppl1.3c)
+%
+% The colors are created using
+% Randall Munroe's .txt file: https://xkcd.com/color/rgb.txt
+% That file explicitly state a CC0 1.0 , see
+% https://creativecommons.org/publicdomain/zero/1.0/
+%
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{doc}
@@ -11,7 +21,7 @@
         \def\ancho{3.5cm}
         \coordinate (top) at (\ancho,1);
         \draw[thick, draw=black, fill=#1] (0,0) rectangle (top);
-        \node[align=center, anchor=north west, text width=\ancho] at (0,0) {\strut\hspace{0pt} #1};
+        \node[align=center, anchor=north west, text width=\ancho] at (0,0) {\strut\hspace{0pt}\relax #1};
     \end{tikzpicture}
 }
 \title{\texttt{xkcdcolors} package}
@@ -36,7 +46,7 @@ To use the package, just load the package with:
 \noindent and enjoy all your new colors --- with a prepended \texttt{xkcd} to avoid clash with standard colors. For example:
 
 \begin{verbatim}
-    \textcolor{xkcdPinyPurple}{this is Pinky Purple}
+    \textcolor{xkcdPinkyPurple}{this is Pinky Purple}
 \end{verbatim}
 
 \noindent will render as \textcolor{xkcdPinkyPurple}{this is Pinky Purple}.

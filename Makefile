@@ -2,7 +2,7 @@ ctan-plain:
 	latexmk -pv xkcdcolors-manual.tex
 	rm -rf ./xkcdcolors xkcdcolors.zip
 	mkdir -p ./xkcdcolors
-	cp README.md ./xkcdcolors
+	cp README.md lppl-*.txt ./xkcdcolors
 	cp xkcdcolors.sty xkcdcolors-manual.tex ./xkcdcolors
 	cp xkcdcolors-manual.pdf  ./xkcdcolors/
 	zip -r --from-crlf xkcdcolors.zip ./xkcdcolors/

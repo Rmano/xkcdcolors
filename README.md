@@ -7,3 +7,6 @@ Afterward, he processed the data and sorted the names for each color by populari
 
 He obtained a nice list of around 950 color names. It's not at all surprising that a lot of people forged `CloudyBlue`, but some color is really surprising, like for example `BabyPoopGreen` or `DullPink`...
 
+### LICENSE
+
+This package use Randall Munroe's file [rgb.txt](https://xkcd.com/color/rgb.txt) which is distributed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). You can use that license or [LPPL 1.3c](https://www.latex-project.org/lppl/lppl-1-3c/)
