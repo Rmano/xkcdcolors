@@ -9,7 +9,7 @@ He obtained a nice list of around 950 color names. It's not at all surprising th
 
 ### DOCUMENTATION
 
-See the included file `xkcdcolors-manual.tex`; you can compile it running (twice) `pdflatex` on it.
+See the included file `xkcdcolors-manual.tex`; you can compile it running (twice) `pdflatex` on it. If you want to have a look, you can find a compiled copy on the [release page](https://github.com/Rmano/xkcdcolors/releases) or on [CTAN](https://www.ctan.org/pkg/xkcdcolors).
 
 If you have already installed the package in your TeX distribution, use `texdoc xkcdcolors`; it should show you the manual of the installed version of the package.
 
