@@ -21,7 +21,7 @@
         \def\ancho{3.5cm}
         \coordinate (top) at (\ancho,1);
         \draw[thick, draw=black, fill=#1] (0,0) rectangle (top);
-        \node[align=center, anchor=north west, text width=\ancho] at (0,0) {\strut\hspace{0pt}\relax #1};
+        \node[align=center, anchor=north west, text width=\ancho, inner xsep=0pt] at (0,0) {\strut\hspace{0pt}\relax #1};
     \end{tikzpicture}
 }
 \title{\texttt{xkcdcolors} package}
@@ -1009,7 +1009,7 @@ xkcdElectricLime,
 xkcdDust,
 xkcdDarkPastelGreen,
 xkcdCloudyBlue}
-{\colorblock{\xkcdcol}\ }
+{\colorblock{\xkcdcol}\quad}
 }
 
 \end{document}
