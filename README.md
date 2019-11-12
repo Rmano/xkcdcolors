@@ -20,6 +20,10 @@ To search for a color in a fast way, at least on Unix or on a compatible `bash` 
     DuckEggBlue,C3FBF4;%
 ```
 
+### Links
+
+A very interesting link about "ordering" the 900+ colors here is [this one on Wolfram Community](https://community.wolfram.com/groups/-/m/t/434022?sortMsg=Flat); well worth a look.
+
 ### LICENSE
 
 This package use Randall Munroe's file [rgb.txt](https://xkcd.com/color/rgb.txt) which is distributed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). You can use that license or [LPPL 1.3c](https://www.latex-project.org/lppl/lppl-1-3c/)
